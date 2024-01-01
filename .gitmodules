@@ -16,3 +16,12 @@
 [submodule "modules/MMM-Pir"]
 	path = modules/MMM-Pir
 	url = https://github.com/bugsounet/MMM-Pir
+[submodule "modules/mmm-systemtemperature"]
+	path = modules/mmm-systemtemperature
+	url = https://github.com/MichMich/mmm-systemtemperature.git
+[submodule "modules/MMM-Vrr"]
+	path = modules/MMM-Vrr
+	url = https://github.com/Klizzy/MMM-Vrr
+[submodule "modules/MMM-Snow"]
+	path = modules/MMM-Snow
+	url = https://github.com/Feedy88/MMM-Snow
