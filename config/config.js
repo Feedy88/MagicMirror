@@ -340,10 +340,10 @@ var config = {
 		},*/
 		{
 			module: 'mmm-systemtemperature',
-			position: 'bottom_bar',
+			position: 'top_right',
 			classes: 'small dimmed', // Add your own styling. Optional.
 			config: {
-				prependString: "Systemtemperatur: ",
+				prependString: "System: ",
 			}
 		},
 		{
