@@ -76,19 +76,11 @@ var config = {
 			module: "alert",
 		},
 		{
-			module: 'mmm-systemtemperature',
-			position: 'top_right',	// This can be any of the regions.
-			classes: 'small dimmed', // Add your own styling. Optional.
-			config: {
-				prependString: "Systemtemperatur: ",
-			}
-		},
-		{
 			module: 'MMM-Snow',
 			position: 'fullscreen_above',
 			config: {
 				flakeCount: 100,
-				theme: "winter"  //modify fall images (square, make white)
+				theme: "winter"  //TO DO: modify fall images (square, make white)
 			}
 		},
 		{
@@ -346,6 +338,14 @@ var config = {
 				],
 			}
 		},*/
+		{
+			module: 'mmm-systemtemperature',
+			position: 'bottom_bar',
+			classes: 'small dimmed', // Add your own styling. Optional.
+			config: {
+				prependString: "Systemtemperatur: ",
+			}
+		},
 		{
 			module: 'MMM-page-indicator',
 			position: 'bottom_bar',
