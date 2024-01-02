@@ -75,20 +75,20 @@ var config = {
 		{
 			module: "alert",
 		},
-		/*{
+		{
 			module: 'mmm-systemtemperature',
 			position: 'top_right',	// This can be any of the regions.
 			classes: 'small dimmed', // Add your own styling. Optional.
 			config: {
 				prependString: "Systemtemperatur: ",
 			}
-		},*/
+		},
 		{
 			module: 'MMM-Snow',
 			position: 'fullscreen_above',
-			config: { // See 'Configuration options' for more information.
+			config: {
 				flakeCount: 100,
-				theme: "winter"			
+				theme: "winter"  //modify fall images (square, make white)
 			}
 		},
 		{
@@ -267,20 +267,20 @@ var config = {
 				}
 			}
 		},*/
-		/*{
+		{
 			module: "MMM-Vrr",
 			position: "bottom_right",
 			config: {
 				city: "Wuppertal",
 				station: "Cronenberg Rathaus",
-				numberOfResults: 2,
+				numberOfResults: 3,
 				displayType: "detail",
 				displayIcons: false,
 				displayTimeOption: "time+countdown",
 				scrollAfter: false,
 				line: "CE"
 			}
-		},*/
+		},
 		{
 			module: "MMM-Fuel",
 			position: "bottom_left",
@@ -301,8 +301,8 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "GameStar",
-						url: "https://www.gamestar.de/news/rss/news.rss",
+						title: "Tagesschau",
+						url: "https://www.tagesschau.de/index~rss2.xml",
 					},
 					{
 						title: "Heise",
