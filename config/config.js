@@ -83,14 +83,14 @@ var config = {
 				prependString: "Systemtemperatur: ",
 			}
 		},*/
-		/*{
+		{
 			module: 'MMM-Snow',
 			position: 'fullscreen_above',
 			config: { // See 'Configuration options' for more information.
 				flakeCount: 100,
 				theme: "winter"			
 			}
-		},*/
+		},
 		{
 			module: 'MMM-WatchDog',
 			config: {
