@@ -240,18 +240,21 @@ var config = {
 					"....-11-05": [
 						"Happy Birthday Katja!"
 					],
-					morning: [
+					"morning": [
 						"Guten Morgen!",
 						"Hast du gut geschlafen?"
 					],
-					day_sunny: [
+					"evening": [
+						"test"
+					]
+					/*"day_sunny:" [
 						"Genieß den sonnigen Tag!",
 						"Heute scheint die Sonne!"
 					],
-					snow: [
+					"snow:" [
 						"Es schneit!"
 					],
-					rain: [
+					"rain:" [
 						"Es wird heute regnen.\n Denk an den Regenschirm."
 					],
 					cloudy: [
@@ -259,7 +262,7 @@ var config = {
 					],
 					cloudy_windy: [
 						"Wolkig und windig heute.\n Pack dich warm ein."
-					]
+					]*/
 				}
 			}
 		},
