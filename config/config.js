@@ -244,6 +244,9 @@ var config = {
 						"Guten Morgen!",
 						"Hast du gut geschlafen?"
 					],
+					"evening": [
+						"test"
+					]
 					/*"day_sunny:" [
 						"Genieß den sonnigen Tag!",
 						"Heute scheint die Sonne!"
