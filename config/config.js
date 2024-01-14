@@ -245,7 +245,7 @@ var config = {
 						"Hast du gut geschlafen?"
 					],
 					"evening": [
-						"test"
+						"Guten Abend"
 					]
 					/*"day_sunny:" [
 						"Genieß den sonnigen Tag!",pm2
@@ -297,8 +297,6 @@ var config = {
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
-			animateIn: "slideInLeft",
-  			animateOut: "slideOutRight",
 			config: {
 				feeds: [
 					{
