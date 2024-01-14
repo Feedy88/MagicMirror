@@ -207,12 +207,12 @@ var config = {
 		},*/
 		{
 			module: 'MMM-CountDown',
-			position: "top_left",
+			position: "top_right",
 			config: {
 				event: "Mats Geburtstermin",
 				date: "2024-04-18 00:00:00",
-				showHours: true,
-				showMinutes: true,
+				showHours: false,
+				showMinutes: false,
 				showSeconds: false,
 				daysLabel: "Tage",
 				hoursLabel: "Stunden",
@@ -248,7 +248,7 @@ var config = {
 						"test"
 					]
 					/*"day_sunny:" [
-						"Genieß den sonnigen Tag!",
+						"Genieß den sonnigen Tag!",pm2
 						"Heute scheint die Sonne!"
 					],
 					"snow:" [
