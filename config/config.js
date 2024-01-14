@@ -106,7 +106,7 @@ var config = {
 			  lastPresenceTimeFormat: "LL H:mm",
 			  mode6_gpio: 20,
 			  mode6_clearGpioValue: true,
-			  pir_gpio: 23,
+			  pir_gpio: 18,
 			  pir_reverseValue: false,
 			  xrandrForceRotation: "normal",
 			  //wrandrForceRotation: "normal"
