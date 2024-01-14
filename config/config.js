@@ -207,12 +207,12 @@ var config = {
 		},*/
 		{
 			module: 'MMM-CountDown',
-			position: "top_right",
+			position: "top_left",
 			config: {
 				event: "Mats Geburtstermin",
 				date: "2024-04-18 00:00:00",
-				showHours: false,
-				showMinutes: false,
+				showHours: true,
+				showMinutes: true,
 				showSeconds: false,
 				daysLabel: "Tage",
 				hoursLabel: "Stunden",
@@ -220,7 +220,7 @@ var config = {
 				secondsLabel: "Sekunden"
 			}
 		},
-		/*{
+		{
 			module: "compliments",
 			position: "upper_third",
 			config: {
@@ -262,7 +262,7 @@ var config = {
 					]
 				}
 			}
-		},*/
+		},
 		{
 			module: "MMM-Vrr", //review config options
 			position: "bottom_right",
