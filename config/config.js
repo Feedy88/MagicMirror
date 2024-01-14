@@ -142,7 +142,7 @@ var config = {
 				timeFormat: "absolute",
 				getRelative: 12,
 				urgency: 0,
-				maximumEntries: 5,
+				maximumEntries: 8,
 				calendars: [
 					{
 						symbol: "cocktail",
@@ -205,41 +205,45 @@ var config = {
 				showAuthType: false
 			}
 		},*/
-		/*{
-			module: "MMM-WeatherOrNot",
-			position: "top_right",
+		{
+			module: 'MMM-CountDown',
+			position: "top_left",
 			config: {
-				location: "cronenberg",
-				locationCode: "51d207d13",
-				languages: "de",
-				tempUnits: "C",
-				font: "Arial",
-				textColor: "#ffffff",
-				htColor: "#ff0000",
-				ltColor: "#00ddff",
-				sunColor: "#febc2f",                    
-				moonColor: "#dfdede",
-				cloudColor: "#dfdede",
-				cloudFill: "#1f567c", 
-				rainColor: "#93bffe",
-				snowColor: "#dfdede",
-				height: "470px",
-				width: "250px",
-				label: "Wuppertal",
-				label2: "Cronenberg",
-				days: "7",
-				theme: "dark",
-				bgColor: "#000000",
-				icons: "Climacons Animated",
-				animationSpeed: 3000,
-				updateInterval: 10 * 60 * 1000
+				event: "Mats Geburtstermin",
+				date: "2024-04-18 00:00:00",
+				showHours: true,
+				showMinutes: true,
+				showSeconds: false,
+				daysLabel: "Tage",
+				hoursLabel: "Stunden",
+				minutesLabel: "Minuten",
+				secondsLabel: "Sekunden"
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "compliments",
-			position: "bottom_center",
+			position: "upper_third",
 			config: {
 				compliments: {
+					"....-01-01": [
+						"Frohes Neues Jahr!"
+					],
+					"....-02-23": [
+						"Happy Birthday Jonas!"
+					],
+					"....-03-26": [
+						"Happy Birthday Rafa!"
+					],
+					"....-09-16": [
+						"Schönen Hochzeitstag!"
+					],
+					"....-11-05": [
+						"Happy Birthday Katja!"
+					],
+					morning: [
+						"Guten Morgen!",
+						"Hast du gut geschlafen?"
+					],
 					day_sunny: [
 						"Genieß den sonnigen Tag!",
 						"Heute scheint die Sonne!"
@@ -258,14 +262,14 @@ var config = {
 					]
 				}
 			}
-		},*/
+		},
 		{
-			module: "MMM-Vrr",
+			module: "MMM-Vrr", //review config options
 			position: "bottom_right",
 			config: {
 				city: "Wuppertal",
 				station: "Cronenberg Rathaus",
-				numberOfResults: 3,
+				numberOfResults: 4,
 				displayType: "detail",
 				displayIcons: false,
 				displayTimeOption: "time+countdown",
@@ -290,6 +294,8 @@ var config = {
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
+			animateIn: "slideInLeft",
+  			animateOut: "slideOutRight",
 			config: {
 				feeds: [
 					{
@@ -346,7 +352,7 @@ var config = {
 				prependString: "System: ",
 			}
 		},
-		{
+		/*{
 			module: 'MMM-page-indicator',
 			position: 'bottom_bar',
 			config: {
@@ -355,7 +361,7 @@ var config = {
 				inactiveDimmed: true,
 				inactiveHollow: true,
 			}
-		}
+		}*/
 	]
 };
 
