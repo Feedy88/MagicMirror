@@ -91,6 +91,14 @@ var config = {
 			}
 		},
 		{
+			module: 'mmm-systemtemperature',
+			position: 'top_right',
+			classes: 'small dimmed', // Add your own styling. Optional.
+			config: {
+				prependString: "System: ",
+			}
+		},
+		{
 			module: 'MMM-Pir',
 			position: 'top_right',
 			config: {
@@ -207,7 +215,7 @@ var config = {
 		},*/
 		{
 			module: "MMM-OpenWeatherMapForecast",
-			header: "Weather",
+			header: "",
 			position: "top_right",
 			classes: "default everyone",
 			disabled: false,
@@ -222,7 +230,7 @@ var config = {
 				showExtraCurrentConditions: true,
 				showSummary: false,
 				hourlyForecastInterval: 4,
-				maxHourliesToShow: 4,
+				maxHourliesToShow: 3,
 				showDailyForecast: true,
 				maxDailiesToShow: 6,
 				concise: false,
@@ -379,14 +387,6 @@ var config = {
 				],
 			}
 		},*/
-		{
-			module: 'mmm-systemtemperature',
-			position: 'top_right',
-			classes: 'small dimmed', // Add your own styling. Optional.
-			config: {
-				prependString: "System: ",
-			}
-		},
 		/*{
 			module: 'MMM-page-indicator',
 			position: 'bottom_bar',
