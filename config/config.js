@@ -142,7 +142,7 @@ var config = {
 				timeFormat: "absolute",
 				getRelative: 12,
 				urgency: 0,
-				maximumEntries: 8,
+				maximumEntries: 6,
 				calendars: [
 					{
 						symbol: "cocktail",
@@ -206,6 +206,40 @@ var config = {
 			}
 		},*/
 		{
+			module: "MMM-OpenWeatherMapForecast",
+			header: "Weather",
+			position: "top_right",
+			classes: "default everyone",
+			disabled: false,
+			config: {
+				apikey: "f96882cb79908ea55720ed77f969b504",
+				latitude: "51.202798",
+				longitude: "7.142989",
+				endpoint: "https://api.openweathermap.org/data/2.5/onecall",
+				updateInterval: 5,
+				iconset: "3c",
+				showCurrentConditions: true,
+				showExtraCurrentConditions: true,
+				showSummary: true,
+				hourlyForecastInterval: 3,
+				maxHourliesToShow: 5,
+				showDailyForecast: true,
+				maxDailiesToShow: 5,
+				concise: false,
+				forecastLayout: "table",
+				label_maximum: "max",
+				label_high: "H",
+				label_low: "⬇️",
+				label_timeFormat: "k[h]",
+				label_days: [
+					"So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"
+				],
+				label_ordinals: [
+					"N", "NNO", "NO", "ONO", "O", "OSO", "SO", "SSO", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"
+				],
+			}
+		  },
+		  {
 			module: 'MMM-CountDown',
 			position: "top_right",
 			config: {
