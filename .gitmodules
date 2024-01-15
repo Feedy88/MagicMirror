@@ -25,6 +25,3 @@
 [submodule "modules/MMM-CountDown"]
 	path = modules/MMM-CountDown
 	url = https://github.com/boazarad/MMM-CountDown
-[submodule "modules/MMM-AccuWeatherForecastDeluxe"]
-	path = modules/MMM-AccuWeatherForecastDeluxe
-	url = https://github.com/maxbethge/MMM-AccuWeatherForecastDeluxe
