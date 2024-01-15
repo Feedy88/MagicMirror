@@ -222,7 +222,7 @@ var config = {
 		},
 		{
 			module: "compliments",
-			position: "upper_third",
+			position: "lower_third",
 			config: {
 				compliments: {
 					"....-01-01": [
