@@ -314,7 +314,7 @@ var config = {
 			config: {
 				city: "Wuppertal",
 				station: "Cronenberg Rathaus",
-				numberOfResults: 4,
+				numberOfResults: 2,
 				displayType: "detail",
 				displayIcons: false,
 				displayTimeOption: "time+countdown",
