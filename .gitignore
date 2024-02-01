@@ -16,6 +16,7 @@ vendor/node_modules/**/*
 jspm_modules
 .npm
 .node_repl_history
+pid.txt
 
 # Visual Studio Code ignoramuses.
 .vscode/
