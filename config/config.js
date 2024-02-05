@@ -75,14 +75,16 @@ var config = {
 		{
 			module: "alert",
 		},
-		{
+		//activate in Winter
+		/*{
 			module: 'MMM-Snow',
 			position: 'fullscreen_above',
 			config: {
 				flakeCount: 100,
-				theme: "winter"  //TO DO: modify fall images (square, make white)
+				theme: "winter"  //think of other themes
+				//https://forum.magicmirror.builders/topic/1232/mmm-snow-yet-another-snow-module/18 > run only when it snows, required HA weather sensor
 			}
-		},
+		},*/
 		{
 			module: 'MMM-WatchDog',
 			config: {
@@ -136,11 +138,12 @@ var config = {
 			}
 		},
 		{
+			//TO DO: check customEvents for color-coding
 			module: "calendar",
 			header: "Termine & Feiertage",
 			position: "top_left",
 			config: {
-				fetchInterval: 60000,
+				fetchInterval: 600000, //10 Minutes
 				displaySymbol: true,
 				showLocation: false,
 				fade: true,
@@ -148,9 +151,10 @@ var config = {
 				dateFormat: "D. MMM HH:mm",
 				fullDayEventDateFormat: "D. MMM",
 				timeFormat: "absolute",
-				getRelative: 12,
+				getRelative: 24,
 				urgency: 0,
 				maximumEntries: 6,
+				displayRepeatingCountTitle: true,
 				calendars: [
 					{
 						symbol: "cocktail",
@@ -266,6 +270,12 @@ var config = {
 			module: "compliments",
 			position: "lower_third",
 			config: {
+				morningStartTime: 3,
+				morningEndTime: 10,
+				afternoonStartTime: 17,
+				afternoonEndTime: 21,
+				eveningStartTime: 21,
+				eveningEndTime: 3,
 				compliments: {
 					"....-01-01": [
 						"Frohes Neues Jahr!"
@@ -286,8 +296,13 @@ var config = {
 						"Guten Morgen!",
 						"Hast du gut geschlafen?"
 					],
+					"afternoon": [
+						"Schönen Feierabend!",
+						"Genieß den restlichen Tag."
+					],
 					"evening": [
-						"Guten Abend"
+						"Hab ein gute Nacht!",
+						"Schlaf gut."
 					]
 					/*"day_sunny:" [
 						"Genieß den sonnigen Tag!",pm2
