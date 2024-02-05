@@ -273,7 +273,7 @@ var config = {
 				morningStartTime: 3,
 				morningEndTime: 10,
 				afternoonStartTime: 21,
-				afternoonEndTime: 3,
+				afternoonEndTime: 2,
 				compliments: {
 					"....-01-01": [
 						"Frohes Neues Jahr!"
@@ -297,6 +297,9 @@ var config = {
 					"afternoon": [
 						"Hab ein gute Nacht!",
 						"Schlaf gut."
+					],
+					"evening": [
+						" "
 					]
 					/*"day_sunny:" [
 						"Genieß den sonnigen Tag!",pm2
