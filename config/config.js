@@ -151,7 +151,7 @@ var config = {
 				dateFormat: "D. MMM HH:mm",
 				fullDayEventDateFormat: "D. MMM",
 				timeFormat: "absolute",
-				getRelative: 24,
+				getRelative: 12,
 				urgency: 0,
 				maximumEntries: 10,
 				displayRepeatingCountTitle: true,
