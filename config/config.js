@@ -153,7 +153,7 @@ var config = {
 				timeFormat: "absolute",
 				getRelative: 24,
 				urgency: 0,
-				maximumEntries: 6,
+				maximumEntries: 10,
 				displayRepeatingCountTitle: true,
 				calendars: [
 					{
@@ -289,17 +289,6 @@ var config = {
 					],
 					"....-11-05": [
 						"Happy Birthday Katja!"
-					],
-					"morning": [
-						"Guten Morgen!",
-						"Hast du gut geschlafen?"
-					],
-					"afternoon": [
-						"Hab ein gute Nacht!",
-						"Schlaf gut."
-					],
-					"evening": [
-						" "
 					]
 					/*"day_sunny:" [
 						"Genieß den sonnigen Tag!",pm2
@@ -320,7 +309,7 @@ var config = {
 				}
 			}
 		},
-		{
+		/*{
 			module: "MMM-Vrr", //review config options
 			position: "bottom_right",
 			config: {
@@ -333,10 +322,10 @@ var config = {
 				scrollAfter: false,
 				line: "CE"
 			}
-		},
+		},*/
 		{
 			module: "MMM-Fuel",
-			position: "bottom_left",
+			position: "bottom_right",
 			config: {
 				api_key: "68c7aacf-c998-cf84-1b08-0d7ea5df0e5f",
 				lat: 51.21631945210809,
