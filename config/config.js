@@ -253,7 +253,7 @@ var config = {
 		  },
 		  {
 			module: 'MMM-CountDown',
-			position: "top_right",
+			position: "bottom_left",
 			config: {
 				event: "Mats Geburtstermin",
 				date: "2024-04-18 00:00:00",
@@ -270,10 +270,6 @@ var config = {
 			module: "compliments",
 			position: "lower_third",
 			config: {
-				morningStartTime: 3,
-				morningEndTime: 10,
-				afternoonStartTime: 21,
-				afternoonEndTime: 2,
 				compliments: {
 					"....-01-01": [
 						"Frohes Neues Jahr!"
@@ -289,7 +285,7 @@ var config = {
 					],
 					"....-11-05": [
 						"Happy Birthday Katja!"
-					]
+					],
 					/*"day_sunny:" [
 						"Genieß den sonnigen Tag!",pm2
 						"Heute scheint die Sonne!"
@@ -332,7 +328,7 @@ var config = {
 				lng: 7.148820512176388,
 				types: ["e5"],
 				radius: 3,
-				max: 3,
+				max: 2,
 				rotate: false,
 				open: true,
 			}
