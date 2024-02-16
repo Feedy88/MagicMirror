@@ -95,7 +95,7 @@ var config = {
 		{
 			module: 'mmm-systemtemperature',
 			position: 'top_right',
-			classes: 'small dimmed', // Add your own styling. Optional.
+			classes: 'small dimmed',
 			config: {
 				prependString: "System: ",
 			}
@@ -119,13 +119,12 @@ var config = {
 			  pir_gpio: 18,
 			  pir_reverseValue: false,
 			  xrandrForceRotation: "normal",
-			  //wrandrForceRotation: "normal"
 			}
 		  },
-		/*{
+		{
 			module: "updatenotification",
 			position: "top_bar"
-		},*/
+		},
 		{
 			module: "clock",
 			position: "top_left",
@@ -184,39 +183,6 @@ var config = {
 				fadePoint: 0.25
 			}
 		},
-		/*{
-			module: "MMM-Spotify",
-			position: "top_center", // "bottom_bar" or "top_bar" for miniBar
-			config: {
-				debug: false, // debug mode
-			  	style: "mini", // "default" or "mini" available (inactive for miniBar)
-			  	control: "default",
-			  	accountDefault: 0, // default account number, attention : 0 is the first account
-			  	updateInterval: 1000, // update interval when playing
-			  	idleInterval: 30000, // update interval on idle
-			  	onStart: null, // disable onStart feature with `null`
-			  	deviceDisplay: "Gehört auf:", // text to display in the device block (default style only)
-			  	allowDevices: [], //If you want to limit devices to display info, use this.
-			  	// allowDevices: ["RASPOTIFY", "My iPhoneX", "My Home speaker"],
-			  	miniBarConfig: {
-					album: true, // display Album name in miniBar style
-					scroll: true, // scroll title / artist / album in miniBar style
-					logo: true, // display Spotify logo in miniBar style
-				}
-			}
-		},*/
-		/*{
-			module: 'MMM-WiFiPassword',
-    		position: "top_right",
-      		config: {
-				network: "Wlan Solo", 
-				password: "AlderaanWasAnInsideJob",
-				authTpye: "WPA",
-				showNetwork: false,
-				showPassword: false,
-				showAuthType: false
-			}
-		},*/
 		{
 			module: "MMM-OpenWeatherMapForecast",
 			header: "",
@@ -292,20 +258,6 @@ var config = {
 				}
 			}
 		},
-		/*{
-			module: "MMM-Vrr", //review config options
-			position: "bottom_right",
-			config: {
-				city: "Wuppertal",
-				station: "Cronenberg Rathaus",
-				numberOfResults: 2,
-				displayType: "detail",
-				displayIcons: false,
-				displayTimeOption: "time+countdown",
-				scrollAfter: false,
-				line: "CE"
-			}
-		},*/
 		{
 			module: "MMM-Fuel",
 			position: "bottom_right",
@@ -340,37 +292,6 @@ var config = {
 				ignoreOlderThan: 86400000,
 			}
 		},
-		/*{
-			module: 'MMM-NFL',
-			position: 'top_left',
-			config: {
-				colored: true,
-				focus_on: ["GB", "SEA", "PIT", "ARI"],
-				format: "D. MMM HH:mm",
-			}
-		},*/
-		/*{
-			module: "MMM-SoccerLiveScore",
-			position: "bottom_center",
-			config: {
-				leagues: [35, 1, 9]
-			}
-		},*/
-		/*{
-			module: "MMM-Liquipedia-Dota2",
-			position: "bottom_left",
-			header: "Upcoming Dota2 Matches",
-			config: {
-				requiredTeams: [
-					"teamnigma",
-					"teamsecret",
-					"evilgeniuses",
-					"alliance",
-					"og",
-					"teamliquid",
-				],
-			}
-		},*/
 		/*{
 			module: 'MMM-page-indicator',
 			position: 'bottom_bar',
