@@ -40,3 +40,6 @@
 [submodule "modules/MMM-NFL"]
 	path = modules/MMM-NFL
 	url = https://github.com/fewieden/MMM-NFL
+[submodule "modules/MMM-RaiderIO"]
+	path = modules/MMM-RaiderIO
+	url = https://github.com/jwcnewton/MMM-RaiderIO
