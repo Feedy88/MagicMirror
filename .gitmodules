@@ -34,3 +34,9 @@
 [submodule "modules/MMM-page-indicator"]
 	path = modules/MMM-page-indicator
 	url = https://github.com/edward-shen/MMM-page-indicator
+[submodule "modules/MMM-SoccerLiveScore"]
+	path = modules/MMM-SoccerLiveScore
+	url = https://github.com/0m4r/MMM-SoccerLiveScore
+[submodule "modules/MMM-NFL"]
+	path = modules/MMM-NFL
+	url = https://github.com/fewieden/MMM-NFL
