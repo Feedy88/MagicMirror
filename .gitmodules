@@ -31,3 +31,6 @@
 [submodule "modules/MMM-Liquipedia-Matches"]
 	path = modules/MMM-Liquipedia-Matches
 	url = https://github.com/buxxi/MMM-Liquipedia-Matches
+[submodule "modules/MMM-page-indicator"]
+	path = modules/MMM-page-indicator
+	url = https://github.com/edward-shen/MMM-page-indicator
