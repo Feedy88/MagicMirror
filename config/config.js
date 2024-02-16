@@ -266,16 +266,17 @@ var config = {
 				secondsLabel: "Sekunden"
 			}
 		},
-		{
+		/*{
 			module: "compliments",
 			position: "lower_third",
 			config: {
 				compliments: {
-					"....-01-01": [
+
+					"....-01-01": [s
 						"Frohes Neues Jahr!"
 					],
 					"....-02-23": [
-						"Happy Birthday Jonas!"
+						"Happy Birthday Jonas!"s
 					],
 					"....-03-26": [
 						"Happy Birthday Rafa!"
@@ -286,25 +287,9 @@ var config = {
 					"....-11-05": [
 						"Happy Birthday Katja!"
 					],
-					/*"day_sunny:" [
-						"Genieß den sonnigen Tag!",pm2
-						"Heute scheint die Sonne!"
-					],
-					"snow:" [
-						"Es schneit!"
-					],
-					"rain:" [
-						"Es wird heute regnen.\n Denk an den Regenschirm."
-					],
-					cloudy: [
-						"Heute ein Sonne-Wolken-Mix"
-					],
-					cloudy_windy: [
-						"Wolkig und windig heute.\n Pack dich warm ein."
-					]*/
 				}
 			}
-		},
+		},*/
 		/*{
 			module: "MMM-Vrr", //review config options
 			position: "bottom_right",
