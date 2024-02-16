@@ -28,3 +28,6 @@
 [submodule "modules/MMM-OpenWeatherMapForecast"]
 	path = modules/MMM-OpenWeatherMapForecast
 	url = https://github.com/MarcLandis/MMM-OpenWeatherMapForecast
+[submodule "modules/MMM-Liquipedia-Matches"]
+	path = modules/MMM-Liquipedia-Matches
+	url = https://github.com/buxxi/MMM-Liquipedia-Matches
