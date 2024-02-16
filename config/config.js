@@ -266,17 +266,19 @@ var config = {
 				secondsLabel: "Sekunden"
 			}
 		},
-		/*{
+		{
 			module: "compliments",
 			position: "lower_third",
 			config: {
 				compliments: {
-
-					"....-01-01": [s
+					anytime: [
+						" "
+					],
+					"....-01-01": [
 						"Frohes Neues Jahr!"
 					],
 					"....-02-23": [
-						"Happy Birthday Jonas!"s
+						"Happy Birthday Jonas!"
 					],
 					"....-03-26": [
 						"Happy Birthday Rafa!"
@@ -289,7 +291,7 @@ var config = {
 					],
 				}
 			}
-		},*/
+		},
 		/*{
 			module: "MMM-Vrr", //review config options
 			position: "bottom_right",
