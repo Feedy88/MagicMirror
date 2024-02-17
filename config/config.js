@@ -8,6 +8,8 @@
  *
  */
 
+const { de } = require("../translations/translations");
+
 var config = {
 	address: "localhost", 	// Address to listen on, can be:
 				// - "localhost", "127.0.0.1", "::1" to listen on loopback interface
@@ -43,7 +45,7 @@ var config = {
 	// true, force serveronly mode, because you want to.. no UI on this device
 
 	modules: [
-		/*{
+		{
 			module: "MMM-pages",
 			config: {
 				modules: [
@@ -51,27 +53,22 @@ var config = {
 						"calendar",
 						"MMM-MyGarbage",
 						"MMM-Fuel",
-						"MMM-Spotify",
-						"MMM-WiFiPassword",
-						"MMM-WeatherOrNot",
-						"MMM-Vrr",
+						"MMM-OpenWeatherMapForecast",
+						//"MMM-Vrr",
 						"newsfeed",
 					],
 					[
-						"MMM-Liquipedia-Dota2",
-						"MMM-NFL",
+						"MMM-Liquipedia-Matches",
 						"MMM-SoccerLiveScore",
-
-						
+						"MMM-NFL",
+						"MMM-RaiderIO"
 					],
 				],
-				fixed: ["alert", "MMM-WatchDog", "MMM-page-indicator","mmm-systemtemperature", "clock", "MMM-Snow", "updatenotification"],
+				fixed: ["alert", "MMM-WatchDog", "MMM-page-indicator","mmm-systemtemperature", "clock", "MMM-Snow", "updatenotification", "MMM-Pir"],
 				animationTime: 1000,
-				rotationTime: 15000,
-				rotationDelay: 30000,
-				//rotationFirstPage: 15000,
+				rotationTime: 20000,
 			}
-		},*/
+		},
 		{
 			module: "alert",
 		},
@@ -292,7 +289,57 @@ var config = {
 				ignoreOlderThan: 86400000,
 			}
 		},
-		/*{
+		{
+			module: "MMM-SoccerLiveScore",
+			position: "top_right",
+			config: {
+				leagues: [1, 9, 35],
+				showNames: false,
+				showLogos: true,
+				howTables: false,
+				showScorers: false,
+				scrollVertical: false,
+				languiage: "de"
+			}
+		},
+		{
+			module: "MMM-NFL",
+			position: "top_left",
+			config: {
+				colored: true,
+				focus_on: ['GB', 'PIT'],
+				format: 'ddd H:mm'
+			}
+		},
+		{
+			module: "MMM-Liquipedia-Matches",
+			position: "top_left",
+			config: {
+				game: "dota2",
+				displayCount: 10,
+				requiredProfiles: 2,
+			}
+		},
+		{
+			module: "MMM-RaiderIO",
+			position: "bottom_bar",
+			config: {
+				compact: false,
+				characters: [
+					{
+						region: "eu",
+						realm: "khaz'goroth",
+						name: "Feedy"
+					},
+					{
+						region: "eu",
+						realm: "khaz'goroth",
+						name: "Feedaemon",
+					}
+				]
+			}
+		},
+		{
 			module: 'MMM-page-indicator',
 			position: 'bottom_bar',
 			config: {
@@ -301,7 +348,7 @@ var config = {
 				inactiveDimmed: true,
 				inactiveHollow: true,
 			}
-		}*/
+		}
 	]
 };
 
