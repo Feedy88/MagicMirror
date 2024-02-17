@@ -88,15 +88,15 @@ var config = {
 				timeout: 10,
 			}
 		},*/
-		/*{
+		{
 			module: 'mmm-systemtemperature',
 			position: 'top_right',
 			classes: 'small dimmed',
 			config: {
 				prependString: "System: ",
 			}
-		},*/
-		/*{
+		},
+		{
 			module: 'MMM-Pir',
 			position: 'top_right',
 			config: {
@@ -116,11 +116,11 @@ var config = {
 			  pir_reverseValue: false,
 			  xrandrForceRotation: "normal",
 			}
-		  },
+		},
 		{
 			module: "updatenotification",
 			position: "top_bar"
-		},*/
+		},
 		{
 			module: "clock",
 			position: "top_left",
@@ -228,15 +228,6 @@ var config = {
 				secondsLabel: "Sekunden"
 			}
 		},*/
-		{
-			module: "MMM-Pregnancy",
-			position: "bottom_left",
-			config: {
-				header: "Mats",
-				date: "07/13/2023",
-				USDateFormat: false,
-			}
-		},
 		{
 			module: "compliments",
 			position: "lower_third",
