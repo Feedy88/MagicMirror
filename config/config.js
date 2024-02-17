@@ -56,6 +56,7 @@ var config = {
 						"MMM-OpenWeatherMapForecast",
 						//"MMM-Vrr",
 						"newsfeed",
+						"MMM-Pregnancy"
 					],
 					[
 						"MMM-Liquipedia-Matches",
