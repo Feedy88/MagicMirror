@@ -214,7 +214,7 @@ var config = {
 				],
 			}
 		  },
-		  {
+		  /*{
 			module: 'MMM-CountDown',
 			position: "bottom_left",
 			config: {
@@ -227,6 +227,15 @@ var config = {
 				hoursLabel: "Stunden",
 				minutesLabel: "Minuten",
 				secondsLabel: "Sekunden"
+			}
+		},*/
+		{
+			module: "MMM-Pregnancy",
+			position: "bottom_left",
+			config: {
+				header: "Mats",
+				date: "07/13/2023",
+				USDateFormat: false,
 			}
 		},
 		{
