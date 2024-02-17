@@ -43,3 +43,6 @@
 [submodule "modules/MMM-RaiderIO"]
 	path = modules/MMM-RaiderIO
 	url = https://github.com/jwcnewton/MMM-RaiderIO
+[submodule "modules/MMM-Pregnancy"]
+	path = modules/MMM-Pregnancy
+	url = https://github.com/Feedy88/MMM-Pregnancy
