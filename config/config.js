@@ -81,13 +81,13 @@ var config = {
 				//https://forum.magicmirror.builders/topic/1232/mmm-snow-yet-another-snow-module/18 > run only when it snows, required HA weather sensor
 			}
 		},*/
-		/*{
+		{
 			module: 'MMM-WatchDog',
 			config: {
 				interval: 2,
 				timeout: 10,
 			}
-		},*/
+		},
 		{
 			module: 'mmm-systemtemperature',
 			position: 'top_right',
@@ -166,7 +166,7 @@ var config = {
 				]
 			}
 		},
-		/*{
+		{
 			module: 'MMM-MyGarbage',
 			header: "Abfallkalender",
 			position: 'top_left',
@@ -254,7 +254,7 @@ var config = {
 				}
 			}
 		},
-		/*{
+		{
 			module: "MMM-Fuel",
 			position: "bottom_right",
 			config: {
@@ -267,7 +267,7 @@ var config = {
 				rotate: false,
 				open: true,
 			}
-		},*/
+		},
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
