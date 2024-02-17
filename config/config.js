@@ -8,8 +8,6 @@
  *
  */
 
-//const { de } = require("../translations/translations");
-
 var config = {
 	address: "localhost", 	// Address to listen on, can be:
 				// - "localhost", "127.0.0.1", "::1" to listen on loopback interface
@@ -45,7 +43,7 @@ var config = {
 	// true, force serveronly mode, because you want to.. no UI on this device
 
 	modules: [
-		/*{
+		{
 			module: "MMM-pages",
 			config: {
 				modules: [
@@ -69,10 +67,10 @@ var config = {
 				animationTime: 1000,
 				rotationTime: 20000,
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "alert",
-		},*/
+		},
 		//activate in Winter
 		/*{
 			module: 'MMM-Snow',
@@ -83,22 +81,22 @@ var config = {
 				//https://forum.magicmirror.builders/topic/1232/mmm-snow-yet-another-snow-module/18 > run only when it snows, required HA weather sensor
 			}
 		},*/
-		/*{
+		{
 			module: 'MMM-WatchDog',
 			config: {
 				interval: 2,
 				timeout: 10,
 			}
-		},*/
-		/*{
+		},
+		{
 			module: 'mmm-systemtemperature',
 			position: 'top_right',
 			classes: 'small dimmed',
 			config: {
 				prependString: "System: ",
 			}
-		},*/
-		/*{
+		},
+		{
 			module: 'MMM-Pir',
 			position: 'top_right',
 			config: {
@@ -122,7 +120,7 @@ var config = {
 		{
 			module: "updatenotification",
 			position: "top_bar"
-		},*/
+		},
 		{
 			module: "clock",
 			position: "top_left",
@@ -168,7 +166,7 @@ var config = {
 				]
 			}
 		},
-		/*{
+		{
 			module: 'MMM-MyGarbage',
 			header: "Abfallkalender",
 			position: 'top_left',
@@ -215,7 +213,7 @@ var config = {
 				],
 			}
 		  },
-		  /*{
+		  {
 			module: 'MMM-CountDown',
 			position: "bottom_left",
 			config: {
@@ -229,8 +227,8 @@ var config = {
 				minutesLabel: "Minuten",
 				secondsLabel: "Sekunden"
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-Pregnancy",
 			position: "bottom_left",
 			config: {
@@ -238,8 +236,8 @@ var config = {
 				date: "07/13/2023",
 				USDateFormat: false,
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "compliments",
 			position: "lower_third",
 			config: {
@@ -264,8 +262,8 @@ var config = {
 					],
 				}
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-Fuel",
 			position: "bottom_right",
 			config: {
@@ -278,8 +276,8 @@ var config = {
 				rotate: false,
 				open: true,
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
@@ -298,8 +296,8 @@ var config = {
 				ignoreOldItems: true,
 				ignoreOlderThan: 86400000,
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-SoccerLiveScore",
 			position: "top_right",
 			config: {
@@ -311,8 +309,8 @@ var config = {
 				scrollVertical: false,
 				languiage: "de"
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-NFL",
 			position: "top_left",
 			config: {
@@ -320,8 +318,8 @@ var config = {
 				focus_on: ['GB', 'PIT'],
 				format: 'ddd H:mm'
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-Liquipedia-Matches",
 			position: "top_left",
 			config: {
@@ -329,8 +327,8 @@ var config = {
 				displayCount: 10,
 				requiredProfiles: 2,
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-RaiderIO",
 			position: "bottom_bar",
 			config: {
@@ -348,8 +346,8 @@ var config = {
 					}
 				]
 			}
-		},*/
-		/*{
+		},
+		{
 			module: 'MMM-page-indicator',
 			position: 'bottom_bar',
 			config: {
@@ -358,7 +356,7 @@ var config = {
 				inactiveDimmed: true,
 				inactiveHollow: true,
 			}
-		}*/
+		}
 	]
 };
 
