@@ -43,7 +43,7 @@ var config = {
 	// true, force serveronly mode, because you want to.. no UI on this device
 
 	modules: [
-		/*{
+		{
 			module: "MMM-pages",
 			config: {
 				modules: [
@@ -54,7 +54,6 @@ var config = {
 						"MMM-OpenWeatherMapForecast",
 						//"MMM-Vrr",
 						"newsfeed",
-						"MMM-Pregnancy"
 					],
 					[
 						"MMM-Liquipedia-Matches",
@@ -67,7 +66,7 @@ var config = {
 				animationTime: 1000,
 				rotationTime: 20000,
 			}
-		},*/
+		},
 		{
 			module: "alert",
 		},
@@ -288,7 +287,7 @@ var config = {
 				ignoreOlderThan: 86400000,
 			}
 		},
-		/*{
+		{
 			module: "MMM-SoccerLiveScore",
 			position: "top_right",
 			config: {
@@ -300,8 +299,8 @@ var config = {
 				scrollVertical: false,
 				languiage: "de"
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-NFL",
 			position: "top_left",
 			config: {
@@ -309,8 +308,8 @@ var config = {
 				focus_on: ['GB', 'PIT'],
 				format: 'ddd H:mm'
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-Liquipedia-Matches",
 			position: "top_left",
 			config: {
@@ -318,27 +317,25 @@ var config = {
 				displayCount: 10,
 				requiredProfiles: 2,
 			}
-		},*/
-		/*{
+		},
+		{
 			module: "MMM-RaiderIO",
-			position: "bottom_bar",
+			position: "top_right",
 			config: {
 				compact: false,
-				characters: [
-					{
-						region: "eu",
-						realm: "khaz'goroth",
-						name: "Feedy"
-					},
-					{
-						region: "eu",
-						realm: "khaz'goroth",
-						name: "Feedaemon",
-					}
-				]
+				characters: [{
+					region: "eu",
+					realm: "khaz'goroth",
+					name: "Feedy"
+				},
+				{
+					region: "eu",
+					realm: "garrosh",
+					name: "Rayman",
+				}]
 			}
-		},*/
-		/*{
+		},
+		{
 			module: 'MMM-page-indicator',
 			position: 'bottom_bar',
 			config: {
@@ -347,7 +344,7 @@ var config = {
 				inactiveDimmed: true,
 				inactiveHollow: true,
 			}
-		}*/
+		}
 	]
 };
 
