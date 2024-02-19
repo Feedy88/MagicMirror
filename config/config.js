@@ -194,8 +194,8 @@ var config = {
 				showCurrentConditions: true,
 				showExtraCurrentConditions: true,
 				showSummary: false,
-				hourlyForecastInterval: 4,
-				maxHourliesToShow: 3,
+				hourlyForecastInterval: 6,
+				maxHourliesToShow: 2,
 				showDailyForecast: true,
 				maxDailiesToShow: 6,
 				concise: false,
@@ -294,13 +294,14 @@ var config = {
 				leagues: [1, 9, 35],
 				showNames: false,
 				showLogos: true,
-				howTables: false,
+				showTables: false,
 				showScorers: false,
 				scrollVertical: false,
-				languiage: "de"
+				language: "de"
 			}
 		},
-		{
+		//Removed for Offseason
+		/*{
 			module: "MMM-NFL",
 			position: "top_left",
 			config: {
@@ -308,30 +309,49 @@ var config = {
 				focus_on: ['GB', 'PIT'],
 				format: 'ddd H:mm'
 			}
-		},
+		},*/
 		{
 			module: "MMM-Liquipedia-Matches",
 			position: "top_left",
 			config: {
 				game: "dota2",
 				displayCount: 10,
-				requiredProfiles: 2,
+				requiredTeams: [
+					"Nigma Galaxy",
+					"OG",
+					"Team Secret",
+					"Team Liquid",
+					"Entity",
+					"Gamin Gladiators",
+					"Tundra Esports",
+					"Shopify Rebellion"
+				]
 			}
 		},
 		{
 			module: "MMM-RaiderIO",
 			position: "top_right",
 			config: {
-				compact: false,
+				compact: true,
 				characters: [{
 					region: "eu",
-					realm: "khaz'goroth",
+					realm: "Khaz'Goroth",
+					name: "Feedy"
+				},
+				{
+					region: "de",
+					realm: "Khaz'Goroth",
 					name: "Feedy"
 				},
 				{
 					region: "eu",
-					realm: "garrosh",
+					realm: "Garrosh",
 					name: "Rayman",
+				},
+				{
+					region: "de",
+					realm: "Garrosh",
+					name: "Nalmeera",
 				}]
 			}
 		},
