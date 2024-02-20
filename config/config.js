@@ -175,12 +175,12 @@ var config = {
 				dateFormat: "D. MMM HH:mm",
 				fullDayEventDateFormat: "D. MMM",
 				timeFormat: "absolute",
-				getRelative: 24,
-				urgency: 1,
+				getRelative: 12,
+				urgency: 0,
 				maximumEntries: 10,
 				displayRepeatingCountTitle: true,
 				hideOngoing: false,
-				//nextDaysRelative: true,
+				nextDaysRelative: true,
 				calendars: [
 					{
 						symbol: "cocktail",
