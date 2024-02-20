@@ -180,6 +180,7 @@ var config = {
 				maximumEntries: 10,
 				displayRepeatingCountTitle: true,
 				hideOngoing: false,
+				//nextDaysRelative: true,
 				calendars: [
 					{
 						symbol: "cocktail",
