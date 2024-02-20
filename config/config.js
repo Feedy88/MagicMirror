@@ -167,7 +167,7 @@ var config = {
 			header: "Termine & Feiertage",
 			position: "top_left",
 			config: {
-				fetchInterval: 600000, //10 Minutes
+				fetchInterval: 300000, //5 Minutes
 				displaySymbol: true,
 				showLocation: false,
 				fade: true,
@@ -175,10 +175,11 @@ var config = {
 				dateFormat: "D. MMM HH:mm",
 				fullDayEventDateFormat: "D. MMM",
 				timeFormat: "absolute",
-				getRelative: 12,
-				urgency: 0,
+				getRelative: 24,
+				urgency: 1,
 				maximumEntries: 10,
 				displayRepeatingCountTitle: true,
+				hideOngoing: false,
 				calendars: [
 					{
 						symbol: "cocktail",
