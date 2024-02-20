@@ -255,16 +255,23 @@ var config = {
 		},
 		{
 			module: "MMM-Fuel",
-			position: "bottom_right",
+			position: "bottom_left",
 			config: {
 				api_key: "68c7aacf-c998-cf84-1b08-0d7ea5df0e5f",
 				lat: 51.21631945210809,
 				lng: 7.148820512176388,
 				types: ["e5"],
-				radius: 3,
 				max: 2,
 				rotate: false,
 				open: true,
+				showAddress: false,
+				showCityAddress: false,
+				showDistance: false,
+				showBrand: true,
+				stationIds: [
+					"1a020abb-e61f-4c0d-9e40-04ec85ce8c02",
+					"51d4b50d-a095-1aa0-e100-80009459e03a"
+				]
 			}
 		},
 		{
