@@ -43,7 +43,7 @@ var config = {
 	// true, force serveronly mode, because you want to.. no UI on this device
 
 	modules: [
-		{
+		/*{
 			module: "MMM-pages",
 			config: {
 				modules: [
@@ -66,7 +66,37 @@ var config = {
 				animationTime: 1000,
 				rotationTime: 20000,
 			}
+		},*/
+		{
+			module: "newsfeed",
+			position: "bottom_bar",
+			config: {
+				feeds: [
+					{
+						title: "Tagesschau",
+						url: "https://www.tagesschau.de/index~rss2.xml",
+					},
+					{
+						title: "Heise",
+						url: "https://www.heise.de/rss/heise-top-atom.xml",
+					},
+				],
+				showSourceTitle: true,
+				showPublishDate: true,
+				ignoreOldItems: true,
+				ignoreOlderThan: 86400000,
+			}
 		},
+		/*{
+			module: 'MMM-page-indicator',
+			position: 'bottom_bar',
+			config: {
+				pages: 2,
+				activeBright: true,
+				inactiveDimmed: true,
+				inactiveHollow: true,
+			}
+		},*/
 		{
 			module: "alert",
 		},
@@ -274,27 +304,7 @@ var config = {
 				]
 			}
 		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "Tagesschau",
-						url: "https://www.tagesschau.de/index~rss2.xml",
-					},
-					{
-						title: "Heise",
-						url: "https://www.heise.de/rss/heise-top-atom.xml",
-					},
-				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				ignoreOldItems: true,
-				ignoreOlderThan: 86400000,
-			}
-		},
-		{
+		/*{
 			module: "MMM-SoccerLiveScore",
 			position: "top_right",
 			config: {
@@ -306,7 +316,7 @@ var config = {
 				scrollVertical: false,
 				language: "de"
 			}
-		},
+		},*/
 		//Removed for Offseason
 		/*{
 			module: "MMM-NFL",
@@ -317,7 +327,7 @@ var config = {
 				format: 'ddd H:mm'
 			}
 		},*/
-		{
+		/*{
 			module: "MMM-Liquipedia-Matches",
 			position: "top_left",
 			config: {
@@ -334,8 +344,8 @@ var config = {
 					"Shopify Rebellion"
 				]
 			}
-		},
-		{
+		},*/
+		/*{
 			module: "MMM-RaiderIO",
 			position: "top_right",
 			config: {
@@ -361,17 +371,7 @@ var config = {
 					name: "Nalmeera",
 				}]
 			}
-		},
-		{
-			module: 'MMM-page-indicator',
-			position: 'bottom_bar',
-			config: {
-				pages: 2,
-				activeBright: true,
-				inactiveDimmed: true,
-				inactiveHollow: true,
-			}
-		}
+		},*/
 	]
 };
 
