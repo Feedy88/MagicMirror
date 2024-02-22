@@ -299,14 +299,16 @@ var config = {
 				lat: 51.21631945210809,
 				lng: 7.148820512176388,
 				types: ["e5"],
-				max: 2,
+				radius: 3, //remove once stationIds works
+				max: 3,
 				rotate: false,
 				open: true,
 				showAddress: false,
 				showCityAddress: false,
 				showDistance: false,
 				showBrand: true,
-				stationIds: ["1a020abb-e61f-4c0d-9e40-04ec85ce8c02", "51d4b50d-a095-1aa0-e100-80009459e03a"]
+				/*removed unti fixed
+				stationIds: ["1a020abb-e61f-4c0d-9e40-04ec85ce8c02", "51d4b50d-a095-1aa0-e100-80009459e03a"]*/
 			}
 		},
 		/*{
@@ -348,33 +350,6 @@ var config = {
 					"Tundra Esports",
 					"Shopify Rebellion"
 				]
-			}
-		},*/
-		/*{
-			module: "MMM-RaiderIO",
-			position: "top_right",
-			config: {
-				compact: true,
-				characters: [{
-					region: "eu",
-					realm: "Khaz'Goroth",
-					name: "Feedy"
-				},
-				{
-					region: "de",
-					realm: "Khaz'Goroth",
-					name: "Feedy"
-				},
-				{
-					region: "eu",
-					realm: "Garrosh",
-					name: "Rayman",
-				},
-				{
-					region: "de",
-					realm: "Garrosh",
-					name: "Nalmeera",
-				}]
 			}
 		},*/
 	]
