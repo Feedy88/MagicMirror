@@ -8,6 +8,7 @@
  *
  */
 
+
 var config = {
 	address: "localhost", 	// Address to listen on, can be:
 				// - "localhost", "127.0.0.1", "::1" to listen on loopback interface
@@ -166,6 +167,7 @@ var config = {
 			module: "calendar",
 			header: "Termine & Feiertage",
 			position: "top_left",
+			
 			config: {
 				fetchInterval: 300000, //5 Minutes
 				displaySymbol: true,
@@ -300,10 +302,7 @@ var config = {
 				showCityAddress: false,
 				showDistance: false,
 				showBrand: true,
-				stationIds: [
-					"1a020abb-e61f-4c0d-9e40-04ec85ce8c02",
-					"51d4b50d-a095-1aa0-e100-80009459e03a"
-				]
+				stationIds: ["1a020abb-e61f-4c0d-9e40-04ec85ce8c02", "51d4b50d-a095-1aa0-e100-80009459e03a"]
 			}
 		},
 		/*{
