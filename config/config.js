@@ -183,10 +183,13 @@ var config = {
 				displayRepeatingCountTitle: true,
 				hideOngoing: false,
 				nextDaysRelative: true,
+				coloredSymbol: true,
+				coloredText: true,
 				calendars: [
 					{
 						symbol: "cocktail",
-						url: "webcal://i.cal.to/ical/61/nrw/feiertage/77c4d7d1.8cce2b06-ca7ba139.ics"
+						url: "webcal://i.cal.to/ical/61/nrw/feiertage/77c4d7d1.8cce2b06-ca7ba139.ics",
+						color: "#a368db"
 					},
 					{
 						symbol: 'calendar-check',
@@ -195,6 +198,7 @@ var config = {
 					{
 						symbol: 'birthday-cake',
 						url: 'webcal://localhost:8080/modules/static/birthdays.ics',
+						color: "#ffcf40"
 					},
 				]
 			}
