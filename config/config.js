@@ -167,7 +167,6 @@ var config = {
 			module: "calendar",
 			header: "Termine & Feiertage",
 			position: "top_left",
-			
 			config: {
 				fetchInterval: 300000, //5 Minutes
 				displaySymbol: true,
@@ -269,7 +268,7 @@ var config = {
 			module: "compliments",
 			position: "lower_third",
 			config: {
-				updateInterval: 86400000 //1 day
+				updateInterval: 1000*60*60*12, //12 h
 				compliments: {
 					"....-01-01": [
 						"Frohes Neues Jahr!"
@@ -282,7 +281,7 @@ var config = {
 					],
 					"....-03-26": [
 						"Happy Birthday Rafa!"
-					:],
+					],
 					"....-09-16": [
 						"Schönen Hochzeitstag!"
 					],
