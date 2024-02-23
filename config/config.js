@@ -277,7 +277,7 @@ var config = {
 						"Happy Birthday Jonas!"
 					],
 					"....-02-24": [
-						"Jonas' Geburtstagsparty!"
+						"Herzlich Wilkommen zu\nJonas' Geburtstagsparty!"
 					],
 					"....-03-26": [
 						"Happy Birthday Rafa!"
