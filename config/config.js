@@ -269,25 +269,29 @@ var config = {
 			module: "compliments",
 			position: "lower_third",
 			config: {
+				updateInterval: 86400000 //1 day
 				compliments: {
-					anytime: [
-						" "
-					],
 					"....-01-01": [
 						"Frohes Neues Jahr!"
 					],
 					"....-02-23": [
 						"Happy Birthday Jonas!"
 					],
+					"....-02-24": [
+						"Jonas' Geburtstagsparty!"
+					],
 					"....-03-26": [
 						"Happy Birthday Rafa!"
-					],
+					:],
 					"....-09-16": [
 						"Schönen Hochzeitstag!"
 					],
 					"....-11-05": [
 						"Happy Birthday Katja!"
 					],
+					anytime: [
+						" "
+					]
 				}
 			}
 		},
