@@ -167,7 +167,6 @@ var config = {
 			module: "calendar",
 			header: "Termine & Feiertage",
 			position: "top_left",
-			
 			config: {
 				fetchInterval: 300000, //5 Minutes
 				displaySymbol: true,
@@ -269,10 +268,8 @@ var config = {
 			module: "compliments",
 			position: "lower_third",
 			config: {
+				updateInterval: 1000*60*60*6,
 				compliments: {
-					anytime: [
-						" "
-					],
 					"....-01-01": [
 						"Frohes Neues Jahr!"
 					],
@@ -288,6 +285,9 @@ var config = {
 					"....-11-05": [
 						"Happy Birthday Katja!"
 					],
+					anytime: [
+						" "
+					]
 				}
 			}
 		},
@@ -307,6 +307,7 @@ var config = {
 				showCityAddress: false,
 				showDistance: false,
 				showBrand: true,
+				fade: false,
 				/*removed unti fixed
 				stationIds: ["1a020abb-e61f-4c0d-9e40-04ec85ce8c02", "51d4b50d-a095-1aa0-e100-80009459e03a"]*/
 			}
