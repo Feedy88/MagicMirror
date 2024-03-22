@@ -186,15 +186,18 @@ var config = {
 				coloredText: true,
 				calendars: [
 					{
+						//Feiertage
 						symbol: "cocktail",
 						url: "webcal://i.cal.to/ical/61/nrw/feiertage/77c4d7d1.8cce2b06-ca7ba139.ics",
 						color: "#a368db"
 					},
 					{
+						//Familienkalender
 						symbol: 'calendar-check',
 						url: 'webcal://p65-caldav.icloud.com/published/2/MTM1NTM3NzUzNDEzNTUzN8u9bcLtSE9w_ovBQqETYPj23oMWhkPwlc26rT0YdmPf2FizXkwc8SWyUmvlRt623l01NQGGwRzJSNca3CS85_Q',
 					},
 					{
+						//Geburtstage
 						symbol: 'birthday-cake',
 						url: 'webcal://localhost:8080/modules/static/birthdays.ics',
 						color: "#ffcf40"
@@ -248,22 +251,7 @@ var config = {
 					"N", "NNO", "NO", "ONO", "O", "OSO", "SO", "SSO", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"
 				],
 			}
-		  },
-		  /*{
-			module: 'MMM-CountDown',
-			position: "bottom_left",
-			config: {
-				event: "Mats Geburtstermin",
-				date: "2024-04-18 00:00:00",
-				showHours: false,
-				showMinutes: false,
-				showSeconds: false,
-				daysLabel: "Tage",s
-				hoursLabel: "Stunden",
-				minutesLabel: "Minuten",
-				secondsLabel: "Sekunden"
-			}
-		},*/
+		},
 		{
 			module: "compliments",
 			position: "lower_third",
@@ -299,32 +287,17 @@ var config = {
 				lat: 51.21631945210809,
 				lng: 7.148820512176388,
 				types: ["e5"],
-				radius: 3, //remove once stationIds works
-				max: 3,
+				radius: 0, //set to 0 so stationIds Filter works
 				rotate: false,
 				open: true,
 				showAddress: false,
-				showCityAddress: false,
+				showAddressCity: false,
 				showDistance: false,
 				showBrand: true,
 				fade: false,
-				/*removed unti fixed
-				stationIds: ["1a020abb-e61f-4c0d-9e40-04ec85ce8c02", "51d4b50d-a095-1aa0-e100-80009459e03a"]*/
+				stationIds: ["1a020abb-e61f-4c0d-9e40-04ec85ce8c02", "51d4b50d-a095-1aa0-e100-80009459e03a"]
 			}
 		},
-		/*{
-			module: "MMM-SoccerLiveScore",
-			position: "top_right",
-			config: {
-				leagues: [1, 9, 35],
-				showNames: false,
-				showLogos: true,
-				showTables: false,
-				showScorers: false,
-				scrollVertical: false,
-				language: "de"
-			}
-		},*/
 		//Removed for Offseason
 		/*{
 			module: "MMM-NFL",
@@ -333,24 +306,6 @@ var config = {
 				colored: true,
 				focus_on: ['GB', 'PIT'],
 				format: 'ddd H:mm'
-			}
-		},*/
-		/*{
-			module: "MMM-Liquipedia-Matches",
-			position: "top_left",
-			config: {
-				game: "dota2",
-				displayCount: 10,
-				requiredTeams: [
-					"Nigma Galaxy",
-					"OG",
-					"Team Secret",
-					"Team Liquid",
-					"Entity",
-					"Gamin Gladiators",
-					"Tundra Esports",
-					"Shopify Rebellion"
-				]
 			}
 		},*/
 	]
