@@ -70,7 +70,7 @@ var config = {
 		},*/
 		{
 			module: "MMM-NINA",
-			position: "upper_third",
+			position: "bottom_right",
 			config: {
 				ags: ["051240000000"], // Gemenide-IDs die abgefragt werden sollen: https://www.xrepository.de/api/xrepository/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs_2021-07-31/download/Regionalschl_ssel_2021-07-31.json
 				downgradeLhpSeverity: false,
@@ -78,7 +78,7 @@ var config = {
 				hideCancelledWarnings: false,
 				excludeProviders: [], // Mögliche Werte ["MOWAS", "DWD", "BIWAPP", "LHP"]
 				maxAgeInHours: 6,
-				maxWidth: "450px",
+				maxWidth: "200px",
 				mergeAlertsById: true,
 				mergeAlertsByTitle: true,
 				orderBySeverity: true,
