@@ -70,7 +70,7 @@ var config = {
 		},*/
 		{
 			module: "MMM-NINA",
-			position: "middle_center",
+			position: "top_center",
 			config: {
 				ags: ["051240000000"], // Gemenide-IDs die abgefragt werden sollen: https://www.xrepository.de/api/xrepository/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs_2021-07-31/download/Regionalschl_ssel_2021-07-31.json
 				downgradeLhpSeverity: false,
@@ -86,7 +86,7 @@ var config = {
 				showDate: true,
 				showCity: false,
 				showNoWarning: false,
-				theme: "top-floating", // Erlaubte Werte: top, top-floating, side
+				theme: "side", // Erlaubte Werte: top, top-floating, side
 				updateIntervalInSeconds: 120,
 	   
 			}
