@@ -86,7 +86,7 @@ var config = {
 				showDate: true,
 				showCity: false,
 				showNoWarning: false,
-				theme: "top", // Erlaubte Werte: top, top-floating, side
+				theme: "top-floating", // Erlaubte Werte: top, top-floating, side
 				updateIntervalInSeconds: 120,
 	   
 			}
