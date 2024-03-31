@@ -70,7 +70,7 @@ var config = {
 		},*/
 		{
 			module: "MMM-NINA",
-			position: "bottom_right",
+			position: "middle_center",
 			config: {
 				ags: ["051240000000"], // Gemenide-IDs die abgefragt werden sollen: https://www.xrepository.de/api/xrepository/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs_2021-07-31/download/Regionalschl_ssel_2021-07-31.json
 				downgradeLhpSeverity: false,
@@ -78,14 +78,14 @@ var config = {
 				hideCancelledWarnings: false,
 				excludeProviders: [], // Mögliche Werte ["MOWAS", "DWD", "BIWAPP", "LHP"]
 				maxAgeInHours: 6,
-				maxWidth: "200px",
+				maxWidth: "650px",
 				mergeAlertsById: true,
 				mergeAlertsByTitle: true,
 				orderBySeverity: true,
 				showIcon: true,
 				showDate: true,
 				showCity: false,
-				showNoWarning: true,
+				showNoWarning: false,
 				theme: "top", // Erlaubte Werte: top, top-floating, side
 				updateIntervalInSeconds: 120,
 	   
@@ -201,7 +201,7 @@ var config = {
 				timeFormat: "absolute",
 				getRelative: 12,
 				urgency: 0,
-				maximumEntries: 10,
+				maximumEntries: 18,
 				displayRepeatingCountTitle: true,
 				hideOngoing: false,
 				nextDaysRelative: true,
@@ -304,7 +304,7 @@ var config = {
 		},
 		{
 			module: "MMM-Fuel",
-			position: "bottom_left",
+			position: "bottom_right",
 			config: {
 				api_key: "68c7aacf-c998-cf84-1b08-0d7ea5df0e5f",
 				lat: 51.21631945210809,
