@@ -251,7 +251,7 @@ var config = {
 				apikey: "f96882cb79908ea55720ed77f969b504",
 				latitude: "51.202798",
 				longitude: "7.142989",
-				endpoint: "https://api.openweathermap.org/data/2.5/onecall",
+				endpoint: "https://api.openweathermap.org/data/3.0/onecall",
 				updateInterval: 5,
 				iconset: "3c",
 				showCurrentConditions: true,
