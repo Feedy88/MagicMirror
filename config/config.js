@@ -290,6 +290,9 @@ var config = {
 					"....-03-26": [
 						"Happy Birthday Rafa!"
 					],
+					"....-04-10": [
+						"Happy Birthday Mats!"
+					],
 					"....-09-16": [
 						"Schönen Hochzeitstag!"
 					],
