@@ -149,7 +149,7 @@ var config = {
 				prependString: "System: ",
 			}
 		},
-		{
+		/*{
 			module: 'MMM-Pir',
 			position: 'top_right',
 			config: {
@@ -169,7 +169,50 @@ var config = {
 			  pir_reverseValue: false,
 			  xrandrForceRotation: "normal",
 			}
-		},
+		},*/
+		{
+			module: 'MMM-Pir',
+			position: 'top_right',
+			config: {
+			  debug: false,
+			  Display: {
+				timeout: 2 * 60 * 1000,
+				animate: true,
+				style: 1,
+				colorFrom: "#FF0000",
+				colorTo: "#00FF00",
+				mode: 1, 
+				counter: true,
+				lastPresence: true,
+				lastPresenceTimeFormat: "LL H:mm",
+				availability: true,
+				autoDimmer: false,
+/*				xrandrForceRotation: "normal",
+				wrandrForceRotation: "normal",
+				wrandrForceMode: null,
+				wrandrDisplayName: "wayland-0"*/
+			  },
+			  Pir: {
+				mode: 0,
+				gpio: 18
+			  },
+			  Cron: {
+				ON: [],
+				OFF: []
+			  },
+			  Touch: {
+				mode: 3
+			  },
+			  Governor: {
+				sleeping: 4,
+				working: 2
+			  },
+			  Sounds: {
+				on: 0,
+				off: 0
+			  }
+			}
+		  },
 		{
 			module: "updatenotification",
 			position: "top_bar"
