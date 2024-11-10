@@ -81,4 +81,9 @@ Temporary Items
 *.rej
 *.bak
 
+<<<<<<< HEAD
 package-lock.json
+=======
+# Ignore positions file (#3518)
+js/positions.js
+>>>>>>> 94c3c699e8bf89e0466580960d5d32b745dd940c
