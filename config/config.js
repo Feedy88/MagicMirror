@@ -104,6 +104,10 @@ var config = {
 						title: "Heise",
 						url: "https://www.heise.de/rss/heise-top-atom.xml",
 					},
+					{
+						title: "MyDealz Alarme"
+						url: "https://www.mydealz.de/rssx/keyword-alarm/VP-rxVjJpQ8J0g7o5dwSlw5oVAnZcprQLBGxx0awD1U."
+					}
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
@@ -149,27 +153,6 @@ var config = {
 				prependString: "System: ",
 			}
 		},
-		/*{
-			module: 'MMM-Pir',
-			position: 'top_right',
-			config: {
-			  debug: false,
-			  delay: 2 * 60 * 1000,
-			  turnOffDisplay: true,
-			  mode: 9,
-			  ecoMode: true,
-			  displayCounter: true,
-			  displayBar: true,
-			  displayStyle: "Text",
-			  displayLastPresence: true,
-			  lastPresenceTimeFormat: "LL H:mm",
-			  mode6_gpio: 20,
-			  mode6_clearGpioValue: true,
-			  pir_gpio: 18,
-			  pir_reverseValue: false,
-			  xrandrForceRotation: "normal",
-			}
-		},*/
 		{
 			module: 'MMM-Pir',
 			position: 'top_right',
@@ -186,7 +169,7 @@ var config = {
 				lastPresence: true,
 				lastPresenceTimeFormat: "LL H:mm",
 				availability: true,
-				autoDimmer: false,
+				autoDimmer: true,
 /*				xrandrForceRotation: "normal",
 				wrandrForceRotation: "normal",
 				wrandrForceMode: null,
