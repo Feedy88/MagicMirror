@@ -104,10 +104,6 @@ var config = {
 						title: "Heise",
 						url: "https://www.heise.de/rss/heise-top-atom.xml",
 					},
-					{
-						title: "MyDealz Alarme"
-						url: "https://www.mydealz.de/rssx/keyword-alarm/VP-rxVjJpQ8J0g7o5dwSlw5oVAnZcprQLBGxx0awD1U."
-					}
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
