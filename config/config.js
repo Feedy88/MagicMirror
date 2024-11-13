@@ -242,6 +242,12 @@ var config = {
 						url: 'webcal://p65-caldav.icloud.com/published/2/MTM1NTM3NzUzNDEzNTUzN8u9bcLtSE9w_ovBQqETYPj23oMWhkPwlc26rT0YdmPf2FizXkwc8SWyUmvlRt623l01NQGGwRzJSNca3CS85_Q',
 					},
 					{
+						//Kita Schließung
+						symbol: 'calendar-xmark',
+						urL 'webcal://p65-caldav.icloud.com/published/2/MTM1NTM3NzUzNDEzNTUzN8u9bcLtSE9w_ovBQqETYPg37YAB-nXquAhAJeEXKDvhG2swV1Dip1JEyX6m-hTONYIizFOcWWfoUhxME-z1_YY',
+						color: '#25dbdb'
+					},
+					{
 						//Geburtstage
 						symbol: 'birthday-cake',
 						url: 'webcal://localhost:8080/modules/static/birthdays.ics',
