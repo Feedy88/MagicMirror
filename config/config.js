@@ -165,7 +165,7 @@ var config = {
 				lastPresence: true,
 				lastPresenceTimeFormat: "LL H:mm",
 				availability: true,
-				autoDimmer: true,
+				autoDimmer: false,
 /*				xrandrForceRotation: "normal",
 				wrandrForceRotation: "normal",
 				wrandrForceMode: null,
