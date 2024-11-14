@@ -232,9 +232,9 @@ var config = {
 				calendars: [
 					{
 						//Feiertage
-						symbol: "cocktail",
-						url: "webcal://i.cal.to/ical/61/nrw/feiertage/77c4d7d1.8cce2b06-ca7ba139.ics",
-						color: "#a368db"
+						symbol: 'cocktail',
+						url: 'webcal://i.cal.to/ical/61/nrw/feiertage/77c4d7d1.8cce2b06-ca7ba139.ics',
+						color: '#a368db'
 					},
 					{
 						//Familienkalender
@@ -244,14 +244,14 @@ var config = {
 					{
 						//Kita Schließung
 						symbol: 'calendar-xmark',
-						urL 'webcal://p65-caldav.icloud.com/published/2/MTM1NTM3NzUzNDEzNTUzN8u9bcLtSE9w_ovBQqETYPg37YAB-nXquAhAJeEXKDvhG2swV1Dip1JEyX6m-hTONYIizFOcWWfoUhxME-z1_YY',
+						url: 'webcal://p65-caldav.icloud.com/published/2/MTM1NTM3NzUzNDEzNTUzN8u9bcLtSE9w_ovBQqETYPg37YAB-nXquAhAJeEXKDvhG2swV1Dip1JEyX6m-hTONYIizFOcWWfoUhxME-z1_YY',
 						color: '#25dbdb'
 					},
 					{
 						//Geburtstage
 						symbol: 'birthday-cake',
 						url: 'webcal://localhost:8080/modules/static/birthdays.ics',
-						color: "#ffcf40"
+						color: '#ffcf40'
 					},
 				]
 			}
