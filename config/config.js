@@ -125,7 +125,7 @@ var config = {
 			module: "alert",
 		},
 		//activate in Winter
-		/*{
+		{
 			module: 'MMM-Snow',
 			position: 'fullscreen_above',
 			config: {
@@ -133,7 +133,7 @@ var config = {
 				theme: "winter"  //think of other themes
 				//https://forum.magicmirror.builders/topic/1232/mmm-snow-yet-another-snow-module/18 > run only when it snows, required HA weather sensor
 			}
-		},*/
+		},
 		{
 			module: 'MMM-WatchDog',
 			config: {
@@ -320,16 +320,28 @@ var config = {
 					],
 					"....-04-10": [
 						"Happy Birthday Mats!"
+				   ],   
+					"....-05-01": [
+						"Tag der Arbeit"
 					],
 					"....-09-16": [
 						"Schönen Hochzeitstag!"
 					],
+					"....-10-03": [
+						"Tag der Deutschen Einheit"
+					],
 					"....-11-05": [
 						"Happy Birthday Katja!"
 					],
-					"....-04-10": [
-					 "Happy Birthday Mats!"
-					]
+					"....-12-24": [
+						"Frohe Weihnachten!"
+					],
+					"....-12-25": [
+						"Frohe Weihnachten!"
+					],
+					"....-12-26": [
+						"Frohe Weihnachten!"
+					],
 				}
 			}
 		},
