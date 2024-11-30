@@ -220,7 +220,7 @@ var config = {
 				fadePoint: 0.4,
 				dateFormat: "D. MMM HH:mm",
 				fullDayEventDateFormat: "D. MMM",
-				timeFormat: "absolute",
+				timeFormat: "relative",
 				getRelative: 12,
 				urgency: 0,
 				maximumEntries: 18,
