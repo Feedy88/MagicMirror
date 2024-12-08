@@ -129,7 +129,7 @@ var config = {
 			module: 'MMM-Snow',
 			position: 'fullscreen_above',
 			config: {
-				flakeCount: 100,
+				flakeCount: 300,
 				theme: "winter"  //think of other themes
 				//https://forum.magicmirror.builders/topic/1232/mmm-snow-yet-another-snow-module/18 > run only when it snows, required HA weather sensor
 			}
