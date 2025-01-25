@@ -40,3 +40,6 @@
 [submodule "modules/MMM-NINA"]
 	path = modules/MMM-NINA
 	url = https://github.com/jalibu/MMM-NINA
+[submodule "MMM-Pir"]
+	path = MMM-Pir
+	url = https://github.com/Feedy88/MMM-Pir
