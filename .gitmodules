@@ -10,9 +10,6 @@
 [submodule "modules/MMM-Fuel"]
 	path = modules/MMM-Fuel
 	url = https://github.com/fewieden/MMM-Fuel
-[submodule "modules/MMM-Pir"]
-	path = modules/MMM-Pir
-	url = https://github.com/Feedy88/MMM-Pir
 [submodule "modules/mmm-systemtemperature"]
 	path = modules/mmm-systemtemperature
 	url = https://github.com/MichMich/mmm-systemtemperature.git
