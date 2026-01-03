@@ -366,15 +366,15 @@ var config = {
 			}
 		},
 		//Removed for Offseason
-		/*{
+		{
 			module: "MMM-NFL",
-			position: "top_left",
+			position: "center",
 			config: {
 				colored: true,
 				focus_on: ['GB', 'PIT'],
 				format: 'ddd H:mm'
 			}
-		},*/
+		},
 	]
 };
 
