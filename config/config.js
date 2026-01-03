@@ -227,6 +227,7 @@ var config = {
 				displayRepeatingCountTitle: true,
 				hideOngoing: false,
 				nextDaysRelative: true,
+				showEnd: true,
 				coloredSymbol: true,
 				coloredText: true,
 				calendars: [
