@@ -48,7 +48,7 @@ var config = {
 			module: "MMM-pages",
 			config: {
 				modules: [
-					[
+     					[
 						"calendar",
 						"MMM-MyGarbage",
 						"MMM-Fuel",
@@ -60,7 +60,6 @@ var config = {
 						"MMM-Liquipedia-Matches",
 						"MMM-SoccerLiveScore",
 						"MMM-NFL",
-						"MMM-RaiderIO"
 					],
 				],
 				fixed: ["alert", "MMM-WatchDog", "MMM-page-indicator","mmm-systemtemperature", "clock", "MMM-Snow", "updatenotification", "MMM-Pir"],
@@ -125,7 +124,7 @@ var config = {
 			module: "alert",
 		},
 		//activate in Winter
-		{
+		/*{
 			module: 'MMM-Snow',
 			position: 'fullscreen_above',
 			config: {
@@ -133,7 +132,7 @@ var config = {
 				theme: "winter"  //think of other themes
 				//https://forum.magicmirror.builders/topic/1232/mmm-snow-yet-another-snow-module/18 > run only when it snows, required HA weather sensor
 			}
-		},
+		},*/
 		{
 			module: 'MMM-WatchDog',
 			config: {
